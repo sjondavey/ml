@@ -1,4 +1,5 @@
 import numpy as np
+from collections import namedtuple
 
 WinState = namedtuple('WinState', 'is_ended winner')
 
